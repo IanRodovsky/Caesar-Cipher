@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Caesar Cipher Encryption/Decryption</title>
+    <link rel="stylesheet" href="./caesar-cipher.css">
+</head>
+
+<body>
+    <h1>Caesar Cipher Encryption/Decryption</h1>
+    <form method="post">
+        <label for="text">Enter the text to encrypt:</label>
+        <input type="text" id="textEncrypt" name="text">
+        <label for="shift">Enter the shift value:</label>
+        <input type="text" id="shiftEncrypt" name="shift">
+        <input id="encrypt" type="submit" value="Encrypt">
+    </form>
+    <br>
+    <div id="resultEncrypt"></div>
+    <form method="post">
+        <label for="text">Enter the text to decrypt:</label>
+        <input type="text" id="textDecrypt" name="text">
+        <label for="shift">Enter the shift value:</label>
+        <input type="text" id="shiftDecrypt" name="shift">
+        <input id="decrypt" type="submit" value="Decrypt">
+    </form>
+    <br>
+    <div id="resultDecrypt"></div>
+    <script src="./caesar-cipher.js"></script>
+</body>
+
+</html>
